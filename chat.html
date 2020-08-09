@@ -10,7 +10,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -37,9 +37,9 @@
         <span class="header__icon"><i class="fas fa-bars"></i></span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
-        <span class="chat__timewstamp">Friday, January 11, 2019</span>
+        <span class="chat__timestamp">Friday, January 11, 2019</span>
         <li class="incoming-message message">
           <img
             src="images/avatar.jpg"
@@ -47,15 +47,15 @@
             class="g-avatar message__avatar"
           />
           <div class="message__content">
-            <span class="message__athor">Best Friend</span>
-            <div class="message__bubble">Congrats I love you!</div>
+            <span class="message__bubble">Congrats I love you!</span>
           </div>
+          <span class="message__author">Best Friend</span>
           <span class="message__timestamp">15:19</span>
         </li>
-        <li class="outcoming-message message">
-          <span class="message__timestamp">15:22</span>
+        <li class="sent-message message">
           <div class="message__content">
-            <div class="message__bubble">Thank you see you soon!</div>
+            <span class="message__timestamp">15:22</span>
+            <span class="message__bubble">Thank you see you soon!</span>
           </div>
         </li>
       </ul>
